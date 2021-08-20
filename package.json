@@ -1,0 +1,34 @@
+{
+  "name": "bypassforphp-snippets",
+  "displayName": "Bypass for PHP Snippets",
+  "publisher": "vs0uz4",
+  "description": "Snippets for Bypass for PHP",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vs0uz4/bypassforphp-snippets.git"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#7259A0",
+    "theme": "dark"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/bypass.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/route.json"
+      }
+    ]
+  }
+}

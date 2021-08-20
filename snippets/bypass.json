@@ -1,0 +1,82 @@
+{
+  "BypassOpen": {
+    "scope": "php",
+    "prefix": ":bopen",
+    "body": [
+      "Bypass::open(${1:});\n"
+    ],
+    "description": "Bypass open()"
+  },
+  "BypassServe": {
+    "scope": "php",
+    "prefix": ":bserv",
+    "body": [
+      "Bypass::serve(","    ${1:}\n);"
+    ],
+    "description": "Bypass serve()"
+  },
+  "BypassGetBaseUrl": {
+    "scope": "php",
+    "prefix": ":bburl",
+    "body": [
+      "->getBaseUrl();\n"
+    ],
+    "description": "Bypass getBaseUrl()"
+  },
+  "BypassGetPort": {
+    "scope": "php",
+    "prefix": ":bport",
+    "body": [
+      "->getPort();\n"
+    ],
+    "description": "Bypass getPort()"
+  },
+  "BypassStop": {
+    "scope": "php",
+    "prefix": ":bstop",
+    "body": [
+      "->stop();\n"
+    ],
+    "description": "Bypass stop()"
+  },
+  "BypassDown": {
+    "scope": "php",
+    "prefix": ":bdown",
+    "body": [
+      "->down();\n"
+    ],
+    "description": "Bypass down()"
+  },
+  "BypassExpect": {
+    "scope": "php",
+    "prefix": ":bexp",
+    "body": [
+      "->expect(method: '${1:}', uri: '${2:}', status: ${3:}, body: ${4:});\n"
+    ],
+    "description": "Bypass expect()"
+  },
+  "BypassAddRoute": {
+    "scope": "php",
+    "prefix": ":baro",
+    "body": [
+      "->addRoute(method: '${1:}', uri: '${2:}', status: ${3:}, body: ${4:});\n"
+    ],
+    "description": "Bypass addRoute()"
+  },
+  "BypassAddFileRoute": {
+    "scope": "php",
+    "prefix": ":bafr",
+    "body": [
+      "->addFileRoute(method: '${1:}', uri: '${2:}', status: ${3:}, file: ${4:});\n"
+    ],
+    "description": "Bypass addFileRoute()"
+  },
+  "BypassAssertRoutes": {
+    "scope": "php",
+    "prefix": ":bass",
+    "body": [
+      "->assertRoutes();\n"
+    ],
+    "description": "Bypass assertRoutes()"
+  }
+}

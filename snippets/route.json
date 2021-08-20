@@ -1,0 +1,138 @@
+{
+  "BypassRouteOk": {
+    "scope": "php",
+    "prefix": ":brok",
+    "body": [
+      "Route::ok(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::ok()"
+  },
+  "BypassRouteBadRequest": {
+    "scope": "php",
+    "prefix": ":brbadrequest",
+    "body": [
+      "Route::badRequest(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::badRequest()"
+  },
+  "BypassRouteUnauthorized": {
+    "scope": "php",
+    "prefix": ":brunauthorized",
+    "body": [
+      "Route::unauthorized(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::unauthorized()"
+  },
+  "BypassRouteForbidden": {
+    "scope": "php",
+    "prefix": ":brforbidden",
+    "body": [
+      "Route::forbidden(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::forbidden()"
+  },
+  "BypassRouteCreated": {
+    "scope": "php",
+    "prefix": ":brcreated",
+    "body": [
+      "Route::created(uri: '${1:}', body: '${2:}', times: ${3:})"
+    ],
+    "description": "Bypass Route::created()"
+  },
+  "BypassRouteNotFound": {
+    "scope": "php",
+    "prefix": ":brnotfound",
+    "body": [
+      "Route::notFound(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::notfound()"
+  },
+  "BypassRouteNotAllowed": {
+    "scope": "php",
+    "prefix": ":brnotallowed",
+    "body": [
+      "Route::notAllowed(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::notAllowed()"
+  },
+  "BypassRouteTooMany": {
+    "scope": "php",
+    "prefix": ":brtoomany",
+    "body": [
+      "Route::tooMany(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::tooMany()"
+  },
+  "BypassRouteServerError": {
+    "scope": "php",
+    "prefix": ":brservererror",
+    "body": [
+      "Route::serverError(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::serverError()"
+  },
+  "BypassRouteValidationFailed": {
+    "scope": "php",
+    "prefix": ":brvalidationfailed",
+    "body": [
+      "Route::validationFailed(method: '${1:}', uri: '${2:}', body: '${3:}', times: ${4:})"
+    ],
+    "description": "Bypass Route::validationFailed()"
+  },
+  "BypassRouteFile": {
+    "scope": "php",
+    "prefix": ":brfile",
+    "body": [
+      "Route::file(method: '${1:}', uri: '${2:}', file: '${3:}', status: ${4:} , times: ${5:})"
+    ],
+    "description": "Bypass Route::file()"
+  },
+  "BypassRouteGet": {
+    "scope": "php",
+    "prefix": ":brget",
+    "body": [
+      "Route::get(uri: '${1:}', body: '${2:}', status: ${3:}, times: ${4:})"
+    ],
+    "description": "Bypass Route::get()"
+  },
+  "BypassRouteGetFile": {
+    "scope": "php",
+    "prefix": ":brgetfile",
+    "body": [
+      "Route::getFile(uri: '${1:}', file: '${2:}', status: ${3:}, times: ${4:})"
+    ],
+    "description": "Bypass Route::getFile()"
+  },
+  "BypassRoutePost": {
+    "scope": "php",
+    "prefix": ":brpost",
+    "body": [
+      "Route::post(uri: '${1:}', body: '${2:}', status: ${3:}, times: ${4:})"
+    ],
+    "description": "Bypass Route::post()"
+  },
+  "BypassRoutePut": {
+    "scope": "php",
+    "prefix": ":brput",
+    "body": [
+      "Route::put(uri: '${1:}', body: '${2:}', status: ${3:}, times: ${4:})"
+    ],
+    "description": "Bypass Route::put()"
+  },
+  "BypassRouteDelete": {
+    "scope": "php",
+    "prefix": ":brdelete",
+    "body": [
+      "Route::delete(uri: '${1:}', body: '${2:}', status: ${3:}, times: ${4:})"
+    ],
+    "description": "Bypass Route::delete()"
+  },
+  "BypassRoutePatch": {
+    "scope": "php",
+    "prefix": ":brpatch",
+    "body": [
+      "Route::patch(uri: '${1:}', body: '${2:}', status: ${3:}, times: ${4:})"
+    ],
+    "description": "Bypass Route::patch()"
+  }
+}
