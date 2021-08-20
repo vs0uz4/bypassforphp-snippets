@@ -11,7 +11,7 @@
     "scope": "php",
     "prefix": ":bserv",
     "body": [
-      "Bypass::serve(","    ${1:}\n);"
+      "Bypass::serve(","    ${1:}//Route::\n);"
     ],
     "description": "Bypass serve()"
   },
