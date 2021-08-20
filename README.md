@@ -2,6 +2,8 @@
 
 Code snippets for writing tests for PHP using [Bypass for PHP](https://bypassforphp.com/) in Visual Studio Code.
 
+![Screenshot](https://github.com/vs0uz4/bypassforphp-snippets/raw/main/images/screenshot.gif)
+
 ## Usage
 
 ### Writing Tests
